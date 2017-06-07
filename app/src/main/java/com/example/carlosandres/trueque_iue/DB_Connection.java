@@ -26,6 +26,8 @@ public class DB_Connection {
         boolean conection = false; //Estado de la conexión
 
         try {
+            Toast.makeText(context, "Entro al try", Toast.LENGTH_SHORT).show();
+
             DBHelper admin = new DBHelper(context, "database.sqlite", null, 1);
             SQLiteDatabase db = admin.getWritableDatabase();
 
