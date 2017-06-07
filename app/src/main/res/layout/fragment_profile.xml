@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlosandres.trueque_iue.Profile"
+    style="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="23dp"
+            app:srcCompat="@drawable/ic_menu_profile" />
+
+        <TextView
+            android:id="@+id/lblUser_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_alignTop="@+id/imageView11"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblUser_Name"
+            android:layout_alignStart="@+id/lblUser_Name"
+            android:layout_below="@+id/lblUser_Name"
+            android:text="Número de carnet:" />
+
+        <TextView
+            android:id="@+id/lblId_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_below="@+id/textView20"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    </RelativeLayout>
+</FrameLayout>

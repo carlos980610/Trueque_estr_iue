@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Trueques IUE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_request">Solicitudes</string>
+    <string name="action_exit">Salir</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string-array name="Career_arrays">
+        <item>Psicología</item>
+
+        <item>Derecho</item>
+        <item>Tecnología en transito y transportes</item>
+
+        <item>Contaduría publica</item>
+        <item>Administración de negocios internacionales</item>
+
+        <item>Ingeniería de sistemas</item>
+        <item>Ingeniería electrónica</item>
+        <item>Tecnología en gestión de redes</item>
+        <item>Tecnología en desarrollo de sistemas de informaación</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
